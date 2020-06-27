@@ -1,27 +1,11 @@
-# amplifydemo
+# AWS Amplify using Vue.js Project template
 
-## Project setup
-```
-npm install
-```
+## Explanation
+This is the code repo for my tutorial video on building a simple Vue.js that uses AWS Amplify for both the backend as well at authorization.  The application is a basic one page To-Do task tracker.  This app will allow users to login with a Google account and create a simple task list that is only visible to them.  The tasks will be stored in AWS DynamoBD and accessed through GraphQL. This is a very simple “proof of concept” application but the example can be easily expanded with changes to the defined schema and additional VueJS forms and display components.  
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This demo assumes that you have an AWS account, a Google account and are familiar with some aspects of creating a Vue.js application and comfortable using a CLI for development.  To use this code simply follow the command line process defined in the video and use the code supplied to complete the Vue.js components and setup to get the project working on you machine.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[link to youtube video]
 
 
 
