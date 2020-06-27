@@ -45,6 +45,7 @@ export default new Vuex.Store({
 
     async deleteTask(context, task) {
       const data = await API.graphql(graphqlOperation(taskqueries.deleteTask(task)));
+      window.console.log(data);
       context.commit('DELETE_TASK', task);
     },
 
