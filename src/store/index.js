@@ -34,11 +34,13 @@ export default new Vuex.Store({
   actions: {
     async addTask(context, task) {
       const data = await API.graphql(graphqlOperation(taskqueries.addTask(task)));
+      window.console.log(data);
       task = data.data.createTask;
       context.commit('ADD_TASK', task);
     },
     async updateTask(context, task) {
       const data = await API.graphql(graphqlOperation(taskqueries.updateTask(task)));
+      window.console.log(data);
       task = data.data.updateTask;      
       context.commit('UPDATE_TASK', task);
     },
@@ -51,6 +53,7 @@ export default new Vuex.Store({
 
     async getTasks(context) {
       const data = await API.graphql(graphqlOperation(taskqueries.listTasks()));
+      window.console.log(data);
       context.commit('GET_TASKS', data.data.listTasks.items);
     },
   },
