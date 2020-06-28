@@ -5,8 +5,6 @@ This is the code repo for my tutorial video on building a simple Vue.js that use
 
 This demo assumes that you have an AWS account, a Google account and are familiar with some aspects of creating a Vue.js application and comfortable using a CLI for development.  To use this code simply follow the command line process defined in the video and use the code supplied to complete the Vue.js components and setup to get the project working on you machine.
 
-[link to youtube video]
-
 [![Alt text](https://img.youtube.com/vi/BSY7igc-Xck/0.jpg)](https://www.youtube.com/watch?v=BSY7igc-Xck)
 
-https://youtu.be/BSY7igc-Xck
+or here: https://youtu.be/BSY7igc-Xck
