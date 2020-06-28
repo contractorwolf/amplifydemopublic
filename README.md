@@ -7,5 +7,6 @@ This demo assumes that you have an AWS account, a Google account and are familia
 
 [link to youtube video]
 
+[![Alt text](https://img.youtube.com/vi/BSY7igc-Xck/0.jpg)](https://www.youtube.com/watch?v=BSY7igc-Xck)
 
-
+https://youtu.be/BSY7igc-Xck
